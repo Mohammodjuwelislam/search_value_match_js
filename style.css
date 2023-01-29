@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header-part-css */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 0 80px;
+    max-width: 100%;
+    max-height: 160px;
+    height: 100px;
+}
+.header .header-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header input{
+    max-width: 500px;
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 5px;
+}
+.header input::placeholder{font-size: 16px;text-transform: capitalize;}
+
+/* container-area-css */
+
+.container{
+    padding: 0 80px;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.full-container{
+    margin-top: 15px;
+    border: 1px solid rgb(170, 162, 162);
+    padding: 20px;
+}
+
+.form-area{
+    margin-bottom: 25px;
+}
+.form-area .add-items{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.form-area form input.text{
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #000;
+    line-height: 1;
+}
+
+.form-area form input.text::placeholder{color: #000;font-size: 16px;text-transform: capitalize;}
+
+.form-area form button.btns{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid darkslategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: darkslategray;
+    color: #ffff;
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.userLists li {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(173, 170, 170);
+    margin-bottom: 8px;
+    position: relative;
+    padding: 0 15px;
+    line-height: 34px;
+}
+
+
+.userLists li button.delete {
+    background-color: tomato;
+    color: #fff;
+    border: transparent;
+    font-weight: 600px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 4px;
+    border: 1px solid rgb(249, 181, 181);
+    border-radius: 5px;
+    cursor: pointer;
+}

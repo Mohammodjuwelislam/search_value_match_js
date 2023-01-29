@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h3 class="header-title">item lister</h3>
+        <div>
+            <input type="text" placeholder="search" id="filter">
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="full-container">
+            <div class="form-area">
+                <h3 class="add-items">add items</h3>
+                <form action="#" id="addForm">
+                    <input type="text" placeholder="items add:" class="text" id="item">
+                    <button type="submit" class="btns">submit</button>
+                </form>
+            </div>
+            <div class="user-item-add">
+                <ul class="userLists" id="items">
+                    <li class="item-group-list">items 1 <button class="delete">x</button></li>
+                    <li class="item-group-list">items 2 <button class="delete">x</button></li>
+                    <li class="item-group-list">items 3 <button class="delete">x</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
